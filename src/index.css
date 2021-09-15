@@ -1,0 +1,138 @@
+
+body {
+  background-color: #a1ecd8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-weight: medium; */
+}
+
+#alertBox {
+  background-color: #0f864b;
+  color:black;
+}
+.buttonBorder {
+  border-width: 3px;
+}
+
+.lightNavTheme {
+  background-color: rgb(4, 63, 112);
+}
+.darkNavTheme {
+  font-family: "Exo 2", sans-serif;
+  background-color: rgb(9, 85, 95);
+  font-weight: bolder;
+  font-style: italic;
+}
+.logoSize {
+  font-size: larger;
+  /* color:grey; */
+}
+.lightNavTextColor {
+  font-family: "Exo 2", sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+  color: rgb(235, 227, 158);
+}
+.darkNavTextColor {
+  color: aqua;
+}
+.textform-sizing {
+  /* font-family: "Glory", sans-serif; */
+  font-size: large;
+  font-weight: bold;
+  width: 70%;
+  margin: 1rem auto;
+  /* background-color: chartreuse; */
+}
+
+.textForm-titles {
+  /* font-weight: bolder; */
+  font-size: 3rem;
+  text-shadow: 2px 2px 1px rgb(255, 0, 0);
+}
+
+.textBox-text {
+  font-weight: bolder;
+  color: black;
+  border: 2px solid rgb(1, 1, 34);
+}
+.alertHide {
+  display: none;
+}
+.alertShow {
+  display: block;
+}
+
+.previewDark {
+  padding: 1rem;
+  margin: 1rem;
+  /* border: 2px solid rgb(177, 0, 0); */
+  border-radius: 2rem;
+  color: rgb(201, 201, 201);
+  background: rgb(193, 197, 116);
+  background: linear-gradient(
+    0deg,
+    rgb(6, 52, 78) 0%,
+    rgba(0, 0, 3, 0.723) 100%
+  );
+}
+
+.textSummary {
+  font-size: small;
+  border-bottom: 1px  solid white;
+  border-top: 1px solid white;
+  margin:1rem;
+}
+
+.previewSize {
+  font-weight:lighter;
+  color: #dc143c;
+  /* background: rgb(98,3,83);
+background: linear-gradient(0deg, rgba(98,3,83,1) 0%, rgba(168,0,0,1) 100%); */
+}
+
+.aboutAccordion {
+  background-color: #071c21;
+  color: white;
+}
+.aboutAccordionSizing {
+  padding: 2rem;
+}
+
+.logo-text {
+  background: linear-gradient(to right, hsl(98 100% 62%), hsl(204 100% 59%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* text-align: left; */
+  font-size: 2rem;
+  /* line-height: 1.1; */
+}
+
+.buttonBackground {
+  background: rgb(3, 59, 98);
+  background: linear-gradient(
+    0deg,
+    rgba(3, 59, 98, 1) 0%,
+    rgba(8, 9, 109, 1) 100%
+  );
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+ .togglerDesign{
+  background: rgb(80,68,231);
+background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgba(246,246,246,1) 52%, rgba(0,176,226,1) 100%);
+  
+  
+  
+}
+.togglerDesign:hover{
+  background: rgb(36,18,255);
+background: radial-gradient(circle, rgba(36,18,255,1) 0%, rgba(0,53,115,1) 54%, rgba(0,104,226,1) 100%);
+  
+} 
+
+.accordion-button::after{
+  filter:invert(1);
+}
