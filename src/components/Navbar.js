@@ -6,7 +6,7 @@ export default function Navbar(props) {
   return (
     <nav
       id="navID"
-      className={`navbar navbar-expand-lg 
+      className={`navbar navbar-expand-sm 
     
     ${props.mode === "light" ? "lightNavTheme " : "darkNavTheme"} `}
     >
