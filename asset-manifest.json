@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nikhilsharma-github/Text-Utility/static/css/main.cf02c80e.chunk.css",
+    "main.js": "/nikhilsharma-github/Text-Utility/static/js/main.fc426399.chunk.js",
+    "main.js.map": "/nikhilsharma-github/Text-Utility/static/js/main.fc426399.chunk.js.map",
+    "runtime-main.js": "/nikhilsharma-github/Text-Utility/static/js/runtime-main.90870426.js",
+    "runtime-main.js.map": "/nikhilsharma-github/Text-Utility/static/js/runtime-main.90870426.js.map",
+    "static/js/2.d8c094e2.chunk.js": "/nikhilsharma-github/Text-Utility/static/js/2.d8c094e2.chunk.js",
+    "static/js/2.d8c094e2.chunk.js.map": "/nikhilsharma-github/Text-Utility/static/js/2.d8c094e2.chunk.js.map",
+    "static/js/3.90a9d711.chunk.js": "/nikhilsharma-github/Text-Utility/static/js/3.90a9d711.chunk.js",
+    "static/js/3.90a9d711.chunk.js.map": "/nikhilsharma-github/Text-Utility/static/js/3.90a9d711.chunk.js.map",
+    "index.html": "/nikhilsharma-github/Text-Utility/index.html",
+    "static/css/main.cf02c80e.chunk.css.map": "/nikhilsharma-github/Text-Utility/static/css/main.cf02c80e.chunk.css.map",
+    "static/js/2.d8c094e2.chunk.js.LICENSE.txt": "/nikhilsharma-github/Text-Utility/static/js/2.d8c094e2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90870426.js",
+    "static/js/2.d8c094e2.chunk.js",
+    "static/css/main.cf02c80e.chunk.css",
+    "static/js/main.fc426399.chunk.js"
+  ]
+}
