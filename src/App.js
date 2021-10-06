@@ -6,7 +6,7 @@ import { useState } from "react";
 import Alerts from "./components/Alerts";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 document.body.style.backgroundColor = "#071C21";
 document.body.style.color = "#FFEBA1";
@@ -47,7 +47,7 @@ function App() {
   };
 
   return (
-    <Router basename="/Text-Utility">
+    <HashRouter basename="/Text-Utility">
       <Navbar title="Text Utility" mode={Mode} toggleMode={toggleMode}></Navbar>
       <Alerts alert={alert}></Alerts>
 
@@ -64,7 +64,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-    </Router>
+    </HashRouter>
     // <Router>
     //   <Navbar title="Text Utility" mode={Mode} toggleMode={toggleMode}></Navbar>
     //   <Alerts alert={alert}></Alerts>
