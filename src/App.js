@@ -47,7 +47,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/Text-Utility">
       <Navbar title="Text Utility" mode={Mode} toggleMode={toggleMode}></Navbar>
       <Alerts alert={alert}></Alerts>
 
@@ -65,6 +65,24 @@ function App() {
         </Switch>
       </div>
     </Router>
+    // <Router>
+    //   <Navbar title="Text Utility" mode={Mode} toggleMode={toggleMode}></Navbar>
+    //   <Alerts alert={alert}></Alerts>
+
+    //   <div className="container mr-4">
+    //     <Switch>
+    //       <Route exact path="/about">
+    //         <About mode={Mode}></About>
+    //       </Route>
+    //       <Route exact path="/">
+    //         <TextForm
+    //           heading="Text Utility - Manipulate your text easily"
+    //           showAlert={showAlert}
+    //         ></TextForm>
+    //       </Route>
+    //     </Switch>
+    //   </div>
+    // </Router>
   );
 }
 
