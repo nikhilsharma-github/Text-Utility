@@ -1,21 +1,24 @@
-import React, { useState } from "react";
+import React from "react";
+// import React, { useState } from "react";
 
 // Enable dark mode code
 
 export default function About() {
-  const [presentTheme, newTheme] = useState({
+  // const [presentTheme, newTheme] = useState({
+  //   color: "#FFEBA1",
+  //   backgroundColor: "#071C21",
+  //   borderRadius: "1rem",
+  //   borderTop:"1px solid white",
+  // });
+   
+
+  const presentTheme={
     color: "#FFEBA1",
     backgroundColor: "#071C21",
     borderRadius: "1rem",
-    borderTop:"1px solid white",
-  });
-   
-  //  if(props.Mode=="light"){
-  //    newTheme({
-  //      color:"black",
-  //      backgroundColor:"purple"
-  //    })
-  //  };
+    borderTop:"1px solid white"
+  };
+  
 
 
 
@@ -42,6 +45,7 @@ export default function About() {
             aria-labelledby="headingOne"
             data-bs-parent="#accordionExample"
           >
+            
             <div className="accordion-body">
               Simply add your text into the textbox and start manipulating it as
               you want <br />

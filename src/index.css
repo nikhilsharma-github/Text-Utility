@@ -1,14 +1,24 @@
-
+/* Body Styling  */
 body {
   background-color: #a1ecd8;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* font-weight: medium; */
 }
+
+/* AlertBox Styling  */
 
 #alertBox {
   background-color: #0f864b;
-  color:black;
+  color: black;
 }
+
+.alertHide {
+  display: none;
+}
+.alertShow {
+  display: block;
+}
+
+/* Navbar Styling  */
 .buttonBorder {
   border-width: 3px;
 }
@@ -24,7 +34,6 @@ body {
 }
 .logoSize {
   font-size: larger;
-  /* color:grey; */
 }
 .lightNavTextColor {
   font-family: "Exo 2", sans-serif;
@@ -35,17 +44,16 @@ body {
 .darkNavTextColor {
   color: aqua;
 }
+
+/* Section Styling  */
 .textform-sizing {
-  /* font-family: "Glory", sans-serif; */
   font-size: large;
   font-weight: bold;
   width: 70%;
   margin: 1rem auto;
-  /* background-color: chartreuse; */
 }
 
 .textForm-titles {
-  /* font-weight: bolder; */
   font-size: 3rem;
   text-shadow: 2px 2px 1px rgb(255, 0, 0);
 }
@@ -55,12 +63,14 @@ body {
   color: black;
   border: 2px solid rgb(1, 1, 34);
 }
-.alertHide {
-  display: none;
+.textSummary {
+  font-size: small;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  margin: 1rem;
 }
-.alertShow {
-  display: block;
-}
+
+/* PreviewBox Styling  */
 
 .previewDark {
   padding: 1rem;
@@ -76,23 +86,16 @@ body {
   );
 }
 
-.textSummary {
-  font-size: small;
-  border-bottom: 1px  solid white;
-  border-top: 1px solid white;
-  margin:1rem;
-}
-
 .previewSize {
-  font-weight:lighter;
+  font-weight: lighter;
   color: #dc143c;
-  /* background: rgb(98,3,83);
-background: linear-gradient(0deg, rgba(98,3,83,1) 0%, rgba(168,0,0,1) 100%); */
 }
 
+/* Accordion Styling  */
 .aboutAccordion {
   background-color: #071c21;
   color: white;
+  border-radius: 1rem;
 }
 .aboutAccordionSizing {
   padding: 2rem;
@@ -101,38 +104,41 @@ background: linear-gradient(0deg, rgba(98,3,83,1) 0%, rgba(168,0,0,1) 100%); */
 .logo-text {
   background: linear-gradient(to right, hsl(98 100% 62%), hsl(204 100% 59%));
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* text-align: left; */
   font-size: 2rem;
-  /* line-height: 1.1; */
 }
 
-.buttonBackground {
-  background: rgb(3, 59, 98);
-  background: linear-gradient(
-    0deg,
-    rgba(3, 59, 98, 1) 0%,
-    rgba(8, 9, 109, 1) 100%
-  );
-  /* -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-  border-radius: 1rem;
-  padding: 0.5rem;
+/* Hamburger Icon Styling  */
+.togglerDesign {
+  background: rgb(68, 152, 231);
+  border: 2px solid black;
+}
+.togglerDesign:hover {
+  background-color: #0e7e4f;
+  border: 2px solid black;
 }
 
- .togglerDesign{
-  background: rgb(80,68,231);
-background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgba(246,246,246,1) 52%, rgba(0,176,226,1) 100%);
-  
-  
-  
+.toggleIcon {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
-.togglerDesign:hover{
-  background: rgb(36,18,255);
-background: radial-gradient(circle, rgba(36,18,255,1) 0%, rgba(0,53,115,1) 54%, rgba(0,104,226,1) 100%);
-  
-} 
 
-.accordion-button::after{
-  filter:invert(1);
+.toggleIcon:hover {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+
+  border-radius: 2px;
+}
+.toggleIcon:after {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+
+  border-radius: 2px;
+}
+
+/* DarkModeButton Styling  */
+#darkModeButton {
+  margin: 0 1rem;
+  padding: 1 1rem;
 }

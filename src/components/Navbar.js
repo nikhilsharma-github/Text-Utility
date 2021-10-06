@@ -29,7 +29,7 @@ export default function Navbar(props) {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="toggleIcon navbar-toggler-icon">TU</span>
         </button>
         
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -66,6 +66,7 @@ export default function Navbar(props) {
               props.mode === "light" ? "dark" : "light"
             }`}
             onClick={props.toggleMode}
+            id="darkModeButton"
           >
             <div className="">
               <input
